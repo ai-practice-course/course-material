@@ -29,3 +29,8 @@
     - https://wikidocs.net/72820 
   * 뉴스를 활용한 암호화폐 예측
     - https://www.koreascience.or.kr/article/JAKO202120462014915.pdf
+
+
+### 논의사항
+
+  * Docker는 후반부로 미루는 것이 어떨지... 나중에 서빙하는 시점에서 docker에 대해서 알아보는 것이 더욱 효율적일 듯합
