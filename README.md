@@ -37,3 +37,8 @@ Dataset candidate:
       * [부산시 실시간 교통정보] (https://www.data.go.kr/tcs/eds/selectCoreDataView.do?coreDataInsttCode=6260890&coreDataSn=1&searchCondition1=coreDataNm&searchKeyword1=&searchOrder=INSTT_NM_ASC)
       * [RFID 기반 음식물쓰레기정보](https://www.data.go.kr/tcs/eds/selectCoreDataView.do?coreDataInsttCode=B552584&coreDataSn=1&searchCondition1=coreDataNm&searchKeyword1=&searchOrder=INSTT_NM_ASC)
       * [한국공항공사](https://www.airport.co.kr/www/cms/frFlightStatsCon/timeSeriesStats.do?MENU_ID=1250)
+
+
+
+### 참고자료
+- [git 기본](https://sabarada.tistory.com/75)
