@@ -9,6 +9,9 @@
 
 
 Dataset candidate:
+
+> 데이터는 frequency가 높거나, 종목의 개수가 높은 것들이 좋을 것 같음
+
   - Walmart Sales Data
     - 참고 할만한 다양한 notebook들이 존재
     - 여기에 20년 이후 출시된 모형을 적용시켜 성능 향상이 있는지 실험
@@ -30,3 +33,7 @@ Dataset candidate:
     - 수요 데이터는 주로 전력 데이터가 있었음
     - 부동산 데이터는 너무 sparse한 데이터로 우리 과정에 적합하지는 않은 것 같음
     - 이 중에서 하나 골라 보는 것도 좋을 것 같음
+      * [국가중점데이터](https://www.data.go.kr/tcs/eds/selectCoreDataListView.do)
+      * [부산시 실시간 교통정보] (https://www.data.go.kr/tcs/eds/selectCoreDataView.do?coreDataInsttCode=6260890&coreDataSn=1&searchCondition1=coreDataNm&searchKeyword1=&searchOrder=INSTT_NM_ASC)
+      * [RFID 기반 음식물쓰레기정보](https://www.data.go.kr/tcs/eds/selectCoreDataView.do?coreDataInsttCode=B552584&coreDataSn=1&searchCondition1=coreDataNm&searchKeyword1=&searchOrder=INSTT_NM_ASC)
+      * [한국공항공사](https://www.airport.co.kr/www/cms/frFlightStatsCon/timeSeriesStats.do?MENU_ID=1250)
