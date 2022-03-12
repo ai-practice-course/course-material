@@ -7,37 +7,30 @@
   - DL 모형
 들이 있고, 간단하게 각각의 모형들에 대해 짚고 넘어가는 시간을 가지도록 하겠습니다.
 
+#### *3월 18일 주제선정 완료*
+#### *3월 26일 분석 계획 수립 완료*
 
-Dataset candidate:
+### Dataset 논의 결과
 
-> 데이터는 frequency가 높거나, 종목의 개수가 높은 것들이 좋을 것 같음
+- 이 과정은 수강생 여러분들의 needs에 맞도록 진행하는 것을 목표로 합니다.
+- 다수 수강생들의 needs는 현재 재직 중인 직장의 업무 연관성 상 수요 예측이었습니다. 수요 예측 모형은 시계열 모형을 기반으로 합니다. 따라서 이번 과정에서는 시계열 분석에 대한 이해를 목표로 합니다.
+- 과정 진행을 위해서는 하나의 중심이 되는 데이터는 필요합니다. 최신의 모델링 기법을 배워보고, 데이터의 수집, 전처리, 모형, deploy를 모두 경험해보고자 하는 이번 과정의 특성상, 목적을 달성하기 위해 필요한 데이터의 성격은 다음과 같다고 생각합니다.
 
-  - Walmart Sales Data
-    - 참고 할만한 다양한 notebook들이 존재
-    - 여기에 20년 이후 출시된 모형을 적용시켜 성능 향상이 있는지 실험
-    - 참고 사이트
-      * [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)
-      * [캐글코리아](https://m.facebook.com/groups/230717130993727/posts/%EA%B9%80%EC%98%81%EB%AF%BC-posted-in-%EC%BA%90%EA%B8%80-%EC%BD%94%EB%A6%AC%EC%95%84-(Kaggle-Korea)/948649505867149/)
+> Frequency가 높거나, 종목의 개수가 높은 것들이 좋을 것 같음 (그렇지 않은 경우, 전통적인 시계열 분석 모형을 사용할 수 밖에 없습니다.)
+> 예측에 도움을 주는 다양한 데이터를 쉽게 수집할 수 있어야 합니다.
 
-  - 암호화폐 가격 예측
-    - 다양한 예측 시도가 이루어지고 있음
-    - 암호화폐의 움직임과 동시에 여러가지 메타정보를 포함하는 형태의 연구들이 존재함
-    - 다양한 데이터를 수집하고 활용하는 연습이 동시에 가능해질 것으로 보임
-    - 참고 사이트
-      * [암호화폐 가격 예측을 위한 딥러닝 앙상블 모델 개발 연구] (http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=8070829862e45fa2ffe0bdc3ef48d419&outLink=K)
-      * [예일대 경제학자 “암호화폐 가격에 영향을 주는 지표 보고서”](https://www.coinpress.co.kr/2018/08/11/8374/)
+- 위의 성격을 지니는 데이터를 다방면으로 탐색하였을 때, 암호화폐 가격 데이터를 과정의 주가 되는 데이터로 사용하기로 합의하였습니다.
+  - 일/월/시/분 데이터를 다양하게 활용할 수 있습니다.
+  - 가격의 scale이 다른 여러가지 alt-coin들이 존재하여, 다수의 시계열을 동시에 예측하기 위한 다양한 모형들을 적용해볼 수 있습니다.
+  - 각종 경제 지표에 대한 웹상의 방대한 데이터는 가격 예측에 큰 도움이 됩니다. (교통량, 전기사용량 등의 데이터를 고려해 보았으나, 활용 가능한 쉽게 구할 수 있는 메타 정보가 없었습니다.)
+  - 기존 연구들이 많이 존재하여, 영향력 있는 변수에 대한 정보를 쉽게 파악할 수 있습니다. 이를 바탕으로 필요한 정보를 파악할 수 있습니다.
+  
+- 과정 자체는 이 데이터를 이용해서 진행합니다만, 과정 끝에 진행하게 될 발표는 개인이 선정한 데이터를 활용합니다.
+  - 개인 데이터 분석 과정에 대해서는 직접 진행하시되, 멘토인 저는 조언을 해드리고,
+  - 전반적인 일정관리를 할 예정입니다.
 
-
-  - [공공데이터 포털](https://www.data.go.kr/index.do)
-    - 다양한 데이터가 있음
-    - 수요 데이터는 주로 전력 데이터가 있었음
-    - 부동산 데이터는 너무 sparse한 데이터로 우리 과정에 적합하지는 않은 것 같음
-    - 이 중에서 하나 골라 보는 것도 좋을 것 같음
-      * [국가중점데이터](https://www.data.go.kr/tcs/eds/selectCoreDataListView.do)
-      * [부산시 실시간 교통정보] (https://www.data.go.kr/tcs/eds/selectCoreDataView.do?coreDataInsttCode=6260890&coreDataSn=1&searchCondition1=coreDataNm&searchKeyword1=&searchOrder=INSTT_NM_ASC)
-      * [RFID 기반 음식물쓰레기정보](https://www.data.go.kr/tcs/eds/selectCoreDataView.do?coreDataInsttCode=B552584&coreDataSn=1&searchCondition1=coreDataNm&searchKeyword1=&searchOrder=INSTT_NM_ASC)
-      * [한국공항공사](https://www.airport.co.kr/www/cms/frFlightStatsCon/timeSeriesStats.do?MENU_ID=1250)
-
+- 3월 18일을 저희 주제 선정의 deadline으로,
+- 3월 26일을 데이터 수집 및 분석 계획 수립의 deadline으로 설정하겠습니다.
 
 
 ### 참고자료
