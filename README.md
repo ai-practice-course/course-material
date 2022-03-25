@@ -7,10 +7,12 @@
 
 ### Course
 
-이번주에는 딥러닝을 이용한 시계열 분석 방법 중 일부에 대해서 살펴보도록 합니다.
-  - N-BEATS
-  - DeepAR
-  - Trasnformers
+이번주에는 데이터 수집 관련한 기본 스킬에 대해서 알아보도록 합니다.
+  - upbit open api 사용법에 대해서 알아봅니다.
+  - 획득한 데이터를 시각화 하는 방법에 대해서 알아봅니다.
+  - Naver news crawling에 대해서 알아봅니다.
+
+
 
 ### 예상 Timeline
 
