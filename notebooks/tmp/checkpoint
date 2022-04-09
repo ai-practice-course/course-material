@@ -1,2 +1,2 @@
-model_checkpoint_path: "ckeckpointer.ckpt"
-all_model_checkpoint_paths: "ckeckpointer.ckpt"
+model_checkpoint_path: "btt_with_volume_ckeckpointer.ckpt"
+all_model_checkpoint_paths: "btt_with_volume_ckeckpointer.ckpt"
