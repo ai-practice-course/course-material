@@ -8,8 +8,7 @@
 ### Course
 
 Parameter 최적화 관련된 내용을 진행하겠습니다.
-  - 1D convolution: https://sanghyu.tistory.com/24
-  - causal padding: https://www.facebook.com/groups/TensorFlowKR/permalink/841325142875212/
+  - 1D convolution 및 causal padding
   - Bayesian optimization
   - Optuna, hyperopt 소개
   - torch-timeseries 살펴 보기
