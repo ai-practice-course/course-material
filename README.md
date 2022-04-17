@@ -7,11 +7,18 @@
 
 ### Course
 
-이번주에는 LSTM을 활용하여 예측을 진행합니다. 저희 암호화폐 데이터가 정상성을 만족하지 못하는 관계로, 전통적인 시계열 분석은 크게 의미가 없어보입니다.
-  - LSTM에 대해서 설명합니다.
-  - 실제 암호화폐 가격을 예측하는 모형을 만들어 봅니다.
-  - 남은 시간에 따라 기존에 커버하지 못했던 Deeplearning 관련 내용을 진행합니다.
+Parameter 최적화 관련된 내용을 진행하겠습니다.
+  - 1D convolution: https://sanghyu.tistory.com/24
+  - causal padding: https://www.facebook.com/groups/TensorFlowKR/permalink/841325142875212/
+  - Bayesian optimization
+  - Optuna, hyperopt 소개
+  - torch-timeseries 살펴 보기
 
+### Links
+  - 1D convolution: https://sanghyu.tistory.com/24
+  - causal padding: https://www.facebook.com/groups/TensorFlowKR/permalink/841325142875212/
+  - Bayesian optimizer in trading: https://blog.est.ai/2021/05/bayesian-optimization-in-trading/
+  - Optuna vs Hyperopt: https://neptune.ai/blog/optuna-vs-hyperopt
 
 ### 예상 Timeline
 
