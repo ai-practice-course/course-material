@@ -17,7 +17,28 @@ Parameter 최적화 관련된 내용을 진행하겠습니다.
   - 1D convolution: https://sanghyu.tistory.com/24
   - causal padding: https://www.facebook.com/groups/TensorFlowKR/permalink/841325142875212/
   - Bayesian optimizer in trading: https://blog.est.ai/2021/05/bayesian-optimization-in-trading/
+  - Bayesian optimizer & TPE: https://hoonst.github.io/2020/11/15/Algorithms-for-Hyperparameter-Optimization/
   - Optuna vs Hyperopt: https://neptune.ai/blog/optuna-vs-hyperopt
+
+### To discuss
+  - 학회 발표 세션 이름 결정
+  
+```
+학회 발표와 관련하여 별도 세션 요청을 하려하는데
+
+의견이 필요한 부분이 있습니다.
+
+1) Session 제목
+2) Session 구성 발표 주제
+
+이렇게인데
+
+발표 주제의 경우 현재 진행중인 사례들의 제목을 주시면 좋을 것 같고
+
+이를 포괄할 수 있는 Session 제목을 선정해주시면 좋을 것 같습니다.
+
+의견 주시면 반영하여 학회에 Session 개설 요청하도록 하겠습니다.
+```
 
 ### 예상 Timeline
 
