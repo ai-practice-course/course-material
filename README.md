@@ -7,10 +7,18 @@
 
 ### Course
 
-이번주에는 LSTM에 Volume 정보를 포함해서 예측을 진행합니다. 앞으로 추가될 여러가지 변수들을 모형에 추가하기 위한 code base를 만듭니다.
-  - 지난주 코드를 변경해 가면서, 어떻게 설명변수들을 활용해서 LSTM 분석을 진행하는지에 대해서 알아봅니다.
-  - OOT 코드를 만들어서, 실제 unseen data에 어떻게 모형이 반응하는지 확인해 봅니다.
-  - 남은 시간에 따라 기존에 커버하지 못했던 Deeplearning 관련 내용을 진행합니다.
+- Pytorch Forecasting을 활용해서 모형을 학습해 보도록 합니다.
+  - Deeplearning 학습할 때 제일 복잡하고 어려운 것 중의 하나는 Dataloader를 만든 일입니다.
+  - Pytorch Forecasting이 요구하는 dataloader를 만들고 학습을 진행해 보겠습니다.
+
+1D convolution 및 causal padding
+Bayesian optimization
+Optuna, hyperopt 소개
+ 살펴 보기
+* Links
+- torch-forecasting: https://pytorch-forecasting.readthedocs.io/en/stable/tutorials/building.html#Minimal-testing-of-models
+- PyTorch Lightning: https://baeseongsu.github.io/posts/pytorch-lightning-introduction/
+
 
 
 ### 예상 Timeline
