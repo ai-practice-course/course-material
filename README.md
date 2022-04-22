@@ -11,10 +11,6 @@
   - Deeplearning 학습할 때 제일 복잡하고 어려운 것 중의 하나는 Dataloader를 만든 일입니다.
   - Pytorch Forecasting이 요구하는 dataloader를 만들고 학습을 진행해 보겠습니다.
 
-1D convolution 및 causal padding
-Bayesian optimization
-Optuna, hyperopt 소개
- 살펴 보기
 * Links
 - torch-forecasting: https://pytorch-forecasting.readthedocs.io/en/stable/tutorials/building.html#Minimal-testing-of-models
 - PyTorch Lightning: https://baeseongsu.github.io/posts/pytorch-lightning-introduction/
