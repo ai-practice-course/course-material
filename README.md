@@ -7,9 +7,11 @@
 
 ### Course
 
-- Pytorch Forecasting을 활용해서 모형을 학습해 보도록 합니다.
-  - Deeplearning 학습할 때 제일 복잡하고 어려운 것 중의 하나는 Dataloader를 만든 일입니다.
-  - Pytorch Forecasting이 요구하는 dataloader를 만들고 학습을 진행해 보겠습니다.
+- Darts를 활용해서 모형을 학습해 보도록 합니다.
+  - Darts는 Timeseries 분석을 위한 library입니다. (https://unit8co.github.io/darts/index.html)
+  - 다양한 모형을 쉽게 구현할 수 있습니다.
+  - Timesereis 모형에 특화된 기능들이 구현되어 있습니다. (Forecasting, backtest, plot, error plot 기능)
+  - Documentation이 잘 되어 있어서 따라서 하기 쉽습니다.
 
 * Links
 - torch-forecasting: https://pytorch-forecasting.readthedocs.io/en/stable/tutorials/building.html#Minimal-testing-of-models
