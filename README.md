@@ -7,14 +7,14 @@
 
 ### Course
 
-- Darts를 활용해서 모형을 학습해 보도록 합니다.
-  - Darts는 Timeseries 분석을 위한 library입니다. 
-  - 다양한 모형을 쉽게 구현할 수 있습니다.
-  - Timesereis 모형에 특화된 기능들이 구현되어 있습니다. (acf, forecasting, backtest, plot, differentiate)
-  - Documentation이 잘 되어 있어서 따라서 하기 쉽습니다.
+- BERT 모형에 대해서 설명하고, 감성 분류를 진행해 봅니다.
+  - SKT의 t-brain에서 제공하는 KoBERT 모형을 사용합니다.
+  - HuggingFace의 transformers를 사용합니다.
+  - Fine-tuning의 중요성을 파악합니다.
+
 
 * Links
-- Darts: https://unit8co.github.io/darts/index.html
+- KoBert: https://complexoftaste.tistory.com/2
 - Random walk & ACF: https://towardsdatascience.com/how-to-detect-random-walk-and-white-noise-in-time-series-forecasting-bdb5bbd4ef81
 - Transformer: https://moondol-ai.tistory.com/460
 
