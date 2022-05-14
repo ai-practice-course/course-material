@@ -16,6 +16,7 @@
 * Links
 - Darts: https://unit8co.github.io/darts/index.html
 - Random walk & ACF: https://towardsdatascience.com/how-to-detect-random-walk-and-white-noise-in-time-series-forecasting-bdb5bbd4ef81
+- Transformer: https://moondol-ai.tistory.com/460
 
 
 
